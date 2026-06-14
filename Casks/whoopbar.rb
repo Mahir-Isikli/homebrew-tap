@@ -7,7 +7,7 @@ cask "whoopbar" do
   desc "Live WHOOP heart rate in your menu bar, with a local history you own"
   homepage "https://github.com/Mahir-Isikli/whoopbar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "WhoopBar.app"
 
