@@ -7,6 +7,8 @@ cask "whoopbar" do
   desc "Live WHOOP heart rate in your menu bar, with a local history you own"
   homepage "https://github.com/Mahir-Isikli/whoopbar"
 
+  depends_on macos: ">= :sonoma"
+
   app "WhoopBar.app"
 
   # WhoopBar is ad-hoc signed (no paid Apple Developer ID), so macOS would otherwise show a
