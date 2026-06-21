@@ -1,6 +1,6 @@
 cask "whoopbar" do
-  version "1.0"
-  sha256 "3beab6143cd9b4580db4f424954b821c7f0dbc7a9d75384446d1964c6d507072"
+  version "1.1"
+  sha256 "8d3ed53c55ff8185d58a45741460b2b111b48b4a5c245b5709a8fd01772c2c78"
 
   url "https://github.com/Mahir-Isikli/whoopbar/releases/download/v#{version}/WhoopBar.dmg"
   name "WhoopBar"
